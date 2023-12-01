@@ -47,7 +47,7 @@ ul {
 
 /* !Intestazione */
 #topbar {
-    height: 80px;
+    min-height: 80px;
     display: flex;
     align-items: center;
 }
@@ -186,6 +186,11 @@ iframe {
 
 .fa-youtube {
     color: #FF0000;
+}
+
+.social-networks .banner {
+    display: none;
+    margin-bottom: 40px;
 }
 
 /* Presentazione */ 

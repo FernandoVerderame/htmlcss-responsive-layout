@@ -1,0 +1,50 @@
+/* Tablet */
+.video-notes .recipe-notes {
+    margin: 0 -1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.recipe-notes li {
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px){
+    #topbar .container{
+        margin: 0;
+    }
+    
+    .recipe {
+        padding: 40px;
+    }
+
+    h2::after {
+        content: '(Dolce Tradizionale)';
+    }
+    
+    .recipe-title h2 {
+        font-size: 33px;
+    }
+
+    .video-notes .recipe-notes {
+        display: flex;
+    }
+
+    .recipe-notes li {
+        flex-basis: calc(100% / 3);
+    }
+
+    .social-networks .btn {
+        padding: 10px 40px;
+    }
+
+    .social-networks .banner {
+        display: block;
+    }
+
+    .presentation .image {
+        float: left;
+        display: block;
+        margin-right: 10px;
+    }
+}
