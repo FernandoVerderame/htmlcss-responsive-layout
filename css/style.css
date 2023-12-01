@@ -186,3 +186,33 @@ iframe {
 .fa-youtube {
     color: #FF0000;
 }
+
+/* Presentazione */ 
+.presentation {
+    padding-bottom: 40px;
+}
+
+.presentation h3 {
+    font-size: 30px;
+}
+
+.presentation .divider {
+    width: 15%;
+    border-bottom: 3px solid #FF992C;
+}
+
+.presentation img {
+    height: 250px;
+}
+
+.presentation .image {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.presentation p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
