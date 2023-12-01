@@ -44,7 +44,7 @@
 
                 <!-- Video ricetta -->
                 <div class="row">
-                    <div class="col">
+                    <div class="col current-video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=vo_fy7Ko2W_OovJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
 
@@ -71,11 +71,46 @@
                 <!-- Social networks -->
                 <div class="social-networks">
                     <ul class="flex">
-                        <li class="btn"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li class="btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li class="btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="btn"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                        <li class="btn"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="btn">
+                            <a href="#">
+                                <div class='brand-button'>
+                                    <div><i class="fa-brands fa-facebook"></i></div>
+                                    <div class="shadow-text"><b>FACEBOOK</b></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="btn">
+                            <a href="#">
+                                <div class="brand-button">
+                                    <div><i class="fa-brands fa-twitter"></i></div>
+                                    <div class="shadow-text"><b>TWITTER</b></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="btn">
+                            <a href="#">
+                                <div class="brand-button">
+                                    <div><i class="fa-brands fa-instagram"></i></div>
+                                    <div class="shadow-text"><b>INSTAGRAM</b></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="btn">
+                            <a href="#">
+                                <div class="brand-button">
+                                    <div><i class="fa-brands fa-pinterest"></i></div>
+                                    <div class="shadow-text"><b>PINTEREST</b></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="btn">
+                            <a href="#">
+                                <div class="brand-button">
+                                    <div><i class="fa-brands fa-youtube"></i></div>
+                                    <div class="shadow-text"><b>YOUTUBE</b></div>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                     <div class="banner"><img src="img/banner.png" alt="Pubblicità"></div>
                 </div>
@@ -96,17 +131,23 @@
     </main>
 
     <!-- !Footer -->
-    <footer>
+    <footer class="aside">
         <div class="container">
-            <div class=""><b><i class="fa-regular fa-copyright"></i> 2021 Giallo Booleano S.p.a.</b></div>
-            <address>Via Tal dei tali, 10- 88046 Lamezia Terme - VAT 43940293020</address>
-            <ul class="flex">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Terms of use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-                <li><a href="#">Disclaimer</a></li>
-            </ul>
+            <div class="footer-link flex">
+                <div>
+                    <div class="owner"><b><i class="fa-regular fa-copyright"></i> 2021 Giallo Booleano S.p.a.</b></div>
+                    <address class="address">Via Tal dei tali, 10- 88046 Lamezia Terme - VAT 43940293020</address>
+                </div>            
+                <div>
+                    <ul class="list-link flex">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
         </div> 
     </footer>
 </body>
