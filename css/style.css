@@ -1,0 +1,50 @@
+/* ?Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ?Generics */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body h1{
+    font-family: 'Nerko One', cursive;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ?Utils */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 2px dashed red;
+}
+
+/* !Intestazione */
+#topbar {
+    height: 80px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #FF9C2D;
+}
+
