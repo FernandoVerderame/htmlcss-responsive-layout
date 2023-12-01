@@ -25,8 +25,9 @@ ul {
 
 /* ?Utils */
 .container {
-    max-width: 500px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;;
 }
 
 .flex {
@@ -37,9 +38,18 @@ ul {
     border: 2px dashed red;
 }
 
+/* Button */
+.btn {
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
 /* !Intestazione */
 #topbar {
     height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -48,3 +58,37 @@ h1 {
     color: #FF9C2D;
 }
 
+/* !Main */
+.recipe {
+    background-color: #F8F5F5;
+}
+
+.recipe header {
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.recipe-category {
+    color: #B2B0B2;
+    font-weight: 100;
+}
+
+.recipe-title h2 {
+    font-size: 30px;
+    color: #4F3C71;
+}
+
+.recipe-rating {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.fa-star {
+    color: #FF992C;
+}
+
+.btn.rate {
+    background-color: #FF992C;
+    color: white;
+}
