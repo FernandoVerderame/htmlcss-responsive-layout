@@ -65,7 +65,7 @@ h1 {
 }
 
 .recipe header {
-    padding-top: 20px;
+    padding: 20px 0;
     justify-content: space-between;
 }
 
@@ -92,6 +92,7 @@ h1 {
 .btn.rate {
     background-color: #FF992C;
     color: white;
+    margin-left: 10px;
 }
 
 /* Ricetta */
@@ -158,9 +159,9 @@ iframe {
 }
 
 /* Social networks */ 
-.social-networks {
+.social-networks ul{
     justify-content: space-around;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
 .social-networks .btn {
