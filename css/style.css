@@ -35,7 +35,7 @@ ul {
 }
 
 .border {
-    border: 2px dashed red;
+    border: 2px dashed black;
 }
 
 /* Button */
@@ -59,8 +59,9 @@ h1 {
 }
 
 /* !Main */
-.recipe {
-    background-color: #F8F5F5;
+/* Titolo Ricetta */
+.recipe {  
+    background-color: #F8F5F7;
 }
 
 .recipe header {
@@ -91,4 +92,97 @@ h1 {
 .btn.rate {
     background-color: #FF992C;
     color: white;
+}
+
+/* Ricetta */
+.row {
+
+}
+
+.col {
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+iframe {
+    width: 100%;
+    display: block;
+}
+
+/* Note ricetta */
+.col.video-notes {
+    background-color: white;
+    padding: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info {
+    background-color: #F8F5F7;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+}
+
+.info-kcal {
+    justify-content: space-between;
+}
+
+.kcal {
+    color: white;
+    background-color: #7E6EA7;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.plus-info {
+    font-size: 20px;
+    color:  #FF992C;
+}
+
+.divider {
+    border-bottom: 1px solid gray;
+    margin: 20px 0
+}
+
+.vegetarian {
+    font-size: 15px;
+}
+
+.recipe-notes li {
+    margin-bottom: 15px;
+}
+
+.recipe-notes .fa-solid {
+    color: #FF992C;
+}
+
+/* Social networks */ 
+.social-networks {
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.social-networks .btn {
+    background-color: white;
+}
+
+.fa-facebook {
+    color: #0866FF;
+}
+
+.fa-twitter {
+    color: #1D9BF0;
+}
+
+.fa-instagram {
+    color: #D02781;
+}
+
+.fa-pinterest {
+    color: #B7081B;
+}
+
+.fa-youtube {
+    color: #FF0000;
 }
