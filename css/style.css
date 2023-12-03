@@ -39,7 +39,7 @@ a {
 }
 
 .border {
-    border: 2px dashed black;
+    border: 2px dashed gray;
 }
 
 /* Button */
@@ -60,6 +60,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     color: #FF9C2D;
+    text-shadow: 1px 1px 1px black;
 }
 
 /* !Main */
@@ -115,6 +116,7 @@ iframe {
     padding: 30px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 8px lightgray;
 }
 
 .info {
@@ -195,6 +197,10 @@ iframe {
 .social-networks .shadow-text {
     color: black;
     display: none;
+}
+
+.social-networks li {
+    box-shadow: 0px 2px 15px lightgray;
 }
 
 /* Presentazione */ 
