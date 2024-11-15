@@ -1,31 +1,43 @@
-Ciao ragazzi,
-Esercizio di oggi: Giallo Booleano
-Repo: htmlcss-responsive-layout
-Consegna:
-Dovremo riprodurre la nostra versione di Giallo Zafferano seguendo gli screenshot in allegato.
-L'approccio a questo progetto deve essere mobile first.
-Analizziamo bene il sito ed i mockup e partiamo quindi dal realizzare la versione mobile.
-Successivamente, proviamo ad accontentare le richieste del cliente come segue, aiutandoci con gli screenshot in allegato:
-IN MODALITA' TABLET (sopra i 768px)
-- Il logo nell'header si allinea a sinistra
-- Il padding del contenuto principale della pagina aumenta
-- Compare il testo "(Dolce Tradizionale)"
-- La grandezza del titolo diventa più grande
-- Le informazioni della ricetta sotto il video si dispongono a griglia
-- I bottoni social si allargano
-- compare il banner pubblicitario
-- l'immagine nella descrizione della ricetta viene circondata dal testo
-MODALITA' DESKTOP (sopra i 992px)
-- La grandezza el titolo della ricetta  aumenta ancora di più
-- Le informazioni della ricetta tornano a disporsi una sotto l'altra
-- Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro
-- Compaiono i nomi delle piattaforme social
-- NEl footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti
-Bonus
-L'ideale sarebbe che se ci fosse spazio, l'immagine nella descrizione della ricetta venisse circondata dal testo anche su mobile ma solo se c'è  spazio sufficiente
-INFO
-- Il font utilizzato per il titolo è: 'Nerko One', cursive;
-- Il font per il resto della pagina è:  Montserrat, 'Helvetica Neue', sans-serif;
-- L'indirizzo del video YT utilizzato è https://www.youtube.com/watch?v=JVT900H6s0g
-Vi ricordo che sono a disposizione per i ticket fino alle 13:00 :faccia_leggermente_sorridente:
-Buon lavoro e buon weekend!
+## Giallo Booleano - Layout Responsive per un Portale di Ricette
+
+Per questo progetto ho sviluppato una pagina web responsive ispirata al design del popolare sito di ricette "Giallo Zafferano". Il lavoro è stato organizzato secondo un approccio mobile-first, partendo dalla versione per smartphone e adattando progressivamente il layout per tablet e desktop.
+
+Caratteristiche del progetto:
+
+### Versione Mobile (sotto i 768px)
+
+- Design ottimizzato per schermi piccoli.
+- Struttura semplificata per garantire un'esperienza utente chiara e intuitiva.
+- Utilizzo del font Nerko One per il titolo e Montserrat per il resto dei contenuti, per un mix di eleganza e leggibilità.
+
+### Modalità Tablet (768px - 992px)
+
+- Header: il logo viene allineato a sinistra.
+- Contenuto: aumento del padding per una disposizione più spaziosa e leggibile.
+- Dettagli aggiuntivi: il testo "(Dolce Tradizionale)" compare sotto il titolo.
+- Layout:
+1. Il titolo diventa più grande.
+2. Le informazioni della ricetta sotto il video sono disposte in griglia.
+3. I bottoni social sono più larghi e viene aggiunto un banner pubblicitario.
+4. L'immagine nella descrizione è circondata dal testo, se lo spazio lo consente.
+
+### Modalità Desktop (sopra i 992px)
+
+- Layout avanzato:
+1. Il titolo della ricetta diventa ancora più grande.
+2. Le informazioni tornano a disporsi verticalmente.
+- Video e dettagli della ricetta sono affiancati.
+- Elementi social: i bottoni includono i nomi delle piattaforme.
+- Footer: i dati del sito e il menu di navigazione sono allineati orizzontalmente ai lati opposti.
+
+### Bonus Implementazioni
+
+- Miglioramento dell’esperienza mobile con gestione intelligente dell'immagine circondata dal testo, quando lo spazio lo permette.
+
+### Tecnologie utilizzate:
+- HTML5 e CSS3 per la struttura e lo stile.
+- Tecniche di Responsive Web Design (RWD), con l'uso di media query per gestire i breakpoints.
+
+Video della ricetta: incorporato direttamente da YouTube (URL: https://www.youtube.com/watch?v=JVT900H6s0g).
+
+Questo progetto ha rappresentato un'ottima opportunità per affinare le mie competenze in design responsivo, garantendo un'interfaccia accattivante e funzionale su tutti i dispositivi.
