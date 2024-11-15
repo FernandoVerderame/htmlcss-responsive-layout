@@ -9,11 +9,11 @@
     padding: 0 1rem;
 }
 
-@media screen and (min-width: 768px){
-    #topbar .container{
+@media screen and (min-width: 768px) {
+    #topbar .container {
         margin: 0;
     }
-    
+
     .recipe {
         padding: 40px;
     }
@@ -21,7 +21,7 @@
     h2::after {
         content: '(Dolce Tradizionale)';
     }
-    
+
     .recipe-title h2 {
         font-size: 33px;
     }
@@ -49,17 +49,13 @@
     }
 }
 
-/* Desktop */ 
+/* Desktop */
 .recipe .current-video {
     flex-basis: 70%;
 }
 
 .recipe .video-notes {
     flex-basis: 30%;
-}
-
-.aside {
-    position: relative;
 }
 
 @media screen and (min-width: 992px) {
@@ -77,8 +73,8 @@
 
     .current-video iframe {
         height: 100%;
-    }  
-    
+    }
+
     .social-networks .shadow-text {
         display: block;
     }
@@ -87,23 +83,7 @@
         display: flex;
     }
 
-    .aside ul {
-        position: absolute;
-        right: 0;
-    }
-
     .footer-link .list-link {
         text-decoration: underline;
-    }
-
-    .footer-link .owner {
-        position: absolute;
-        left: 0;
-        top: 30px;
-    }
-
-    .footer-link .address {
-        position: absolute;
-        left: 0;    
     }
 }

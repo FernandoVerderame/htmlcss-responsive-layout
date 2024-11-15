@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-body h1{
+body h1 {
     font-family: 'Nerko One', cursive;
 }
 
@@ -31,7 +31,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;;
+    padding: 0 1rem;
 }
 
 .flex {
@@ -65,7 +65,7 @@ h1 {
 
 /* !Main */
 /* Titolo Ricetta */
-.recipe {  
+.recipe {
     background-color: #F8F5F7;
 }
 
@@ -139,7 +139,7 @@ iframe {
 
 .plus-info {
     font-size: 20px;
-    color:  #FF992C;
+    color: #FF992C;
 }
 
 .divider {
@@ -159,8 +159,8 @@ iframe {
     color: #FF992C;
 }
 
-/* Social networks */ 
-.social-networks ul{
+/* Social networks */
+.social-networks ul {
     justify-content: space-around;
     margin: 40px 0;
 }
@@ -203,7 +203,7 @@ iframe {
     box-shadow: 0px 2px 15px lightgray;
 }
 
-/* Presentazione */ 
+/* Presentazione */
 .presentation {
     padding-bottom: 50px;
 }
